@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.gyt.servicedemo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--<activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+
+
+
+       <!-- <activity android:name=".activity.start.LifeCycleServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+       <!-- <activity android:name=".activity.start.HelloIntentServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+      <!-- <activity android:name=".activity.start.TestHandleMessageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name=".activity.start.HelloServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name=".activity.start.ForegroundServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name=".activity.bind.LifeCycleServiceActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+       <!-- <activity android:name=".activity.bind.AActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name=".activity.bind.StartBindLifeCycleServiceActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+
+        <!--<activity android:name=".activity.bind.LocalServiceActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<activity android:name=".activity.bind.SingleMessengerServiceActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+
+      <!--  <activity android:name=".activity.messenger.TwoWayMessengerServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name=".activity.aidl.AIDLOneServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+       <!-- <activity android:name=".activity.aidl.AIDLTwoServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <activity android:name=".activity.aidl.AIDLThreeServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.bind.BActivity" />
+
+        <service android:name=".service.start.LifeCycleService" />
+
+        <service android:name=".service.start.HelloIntentService" />
+
+        <service android:name=".service.start.HelloService" />
+
+        <service android:name=".service.start.ForegroundService" />
+
+        <service android:name=".service.bind.LifeCycleService" />
+
+        <service android:name=".service.bind.StartBindLifeCycleService" />
+
+        <service android:name=".service.bind.LocalService" />
+
+        <service android:name=".service.messenger.SingleMessengerService" />
+
+        <service android:name=".service.messenger.TwoWayMessengerService" />
+
+        <service android:name=".service.aidl.AIDLOneService" />
+
+        <service android:name=".service.aidl.AIDLTwoService" />
+
+        <service android:name=".service.aidl.AIDLThreeService" />
+    </application>
+
+</manifest>
